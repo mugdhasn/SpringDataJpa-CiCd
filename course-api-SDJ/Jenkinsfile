@@ -1,14 +1,10 @@
 pipeline{
 	agent any
-	
 	stages{
 		stage ('compile stage'){
 		steps{
 			echo "Hey mugdha just a simple stage !"
 			}
 		}
-		
-		}
-		
 	}
 }
